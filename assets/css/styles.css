@@ -64,4 +64,10 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.bd-grid {
+  max-width: 1200px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
 /*# sourceMappingURL=styles.css.map */
