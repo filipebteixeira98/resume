@@ -227,4 +227,62 @@ img {
 .home__social-icon:hover {
   color: var(--first-color);
 }
+
+@media screen and (min-width: 768px) {
+  body {
+    margin: 0;
+  }
+  l-main {
+    height: 100vh;
+  }
+  .nav {
+    height: 4rem;
+  }
+  .nav__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 0;
+  }
+  .nav__item {
+    margin-left: 3rem;
+    margin-bottom: 0;
+  }
+  .nav__toggle {
+    display: none;
+  }
+  .home {
+    -ms-grid-rows: max-content 20px;
+        grid-template-rows: -webkit-max-content 20px;
+        grid-template-rows: max-content 20px;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .home__information {
+    margin-top: 2rem;
+  }
+  .home__social {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding-top: 8rem;
+    padding-bottom: 0;
+  }
+  .home__social-icon {
+    margin-right: 2rem;
+    margin-bottom: 0;
+  }
+  .home__img {
+    width: 553px;
+    right: 5%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .bd-grid {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
